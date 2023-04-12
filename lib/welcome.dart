@@ -29,7 +29,7 @@ class WelcomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => WeatherPage()),
                 );
               },
-              child: Text('Weather Page'),
+              child: Text('Weather'),
             ),
             ElevatedButton(
               onPressed: () {
@@ -38,7 +38,7 @@ class WelcomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => CalculatorPage()),
                 );
               },
-              child: Text('Calculator Page'),
+              child: Text('Calculator'),
             ),
             ElevatedButton(
               onPressed: () {
