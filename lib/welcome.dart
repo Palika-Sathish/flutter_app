@@ -1,6 +1,7 @@
+import 'NotesScreen.dart';
 import 'weather.dart';
-import 'package:flutter/material.dart';
 import 'calculator.dart';
+import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {
   @override
@@ -38,6 +39,15 @@ class WelcomeScreen extends StatelessWidget {
                 );
               },
               child: Text('Calculator Page'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => NotesScreen()),
+                );
+              },
+              child: Text('Notes Screen'),
             ),
           ],
         ),

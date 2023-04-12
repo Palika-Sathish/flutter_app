@@ -1,3 +1,4 @@
+import 'NotesScreen.dart';
 import 'welcome.dart';
 import 'package:flutter/material.dart';
 import 'calculator.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => WelcomeScreen(),
        // '/weather': (context) => WeatherPage(),
         '/calculator': (context) => CalculatorPage(),
+        '/notes': (context) => NotesScreen(),
       },
     );
   }
