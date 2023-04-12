@@ -47,7 +47,7 @@ class WelcomeScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => NotesScreen()),
                 );
               },
-              child: Text('Notes Screen'),
+              child: Text('Notes'),
             ),
           ],
         ),
